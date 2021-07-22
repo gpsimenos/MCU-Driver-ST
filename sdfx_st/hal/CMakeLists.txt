@@ -33,7 +33,7 @@ target_sources(sdfx-hal-st
         src/stm_spi_api.c
         src/trng_api.c
         src/us_ticker.c
-        # src/watchdog_api.c
+        src/watchdog_api.c
 )
 
 target_link_libraries(sdfx-hal-st
